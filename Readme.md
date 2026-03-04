@@ -1,4 +1,4 @@
-# 🤖 HirePilot — Autonomous AI HR Screening Agent
+# 🤖 HireMind — AI HR Screening Agent
 
 ![n8n](https://img.shields.io/badge/Workflow-n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![LLM](https://img.shields.io/badge/LLM-Gemini%20%7C%20OpenAI-4285F4?style=for-the-badge)
@@ -6,152 +6,92 @@
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-**HireMind** is an intelligent, event-driven recruitment automation system built with n8n and LLMs that autonomously screens candidates, evaluates resumes, generates dynamic screening questions, computes ATS-style scores, and delivers personalized email feedback — all without manual HR intervention.
-
-> Designed to simulate a real-world AI recruitment pipeline used in modern HR tech stacks.
+**HireMind** is an AI-powered recruitment automation workflow built with n8n that analyzes resumes, generates screening questions, computes ATS-style scores, and sends personalized candidate emails automatically.
 
 ---
 
-![Workflow Overview](screenshots/workflow-overview.png)
+## 🚀 Key Features
+
+- AI-driven resume analysis  
+- Dynamic screening question generation  
+- Automated ATS-style scoring  
+- Personalized Gmail feedback  
+- Modular n8n workflow architecture  
 
 ---
 
-## 🎯 Why This Project Matters
+## 🏗️ Workflow Pipeline
 
-Traditional candidate screening is:
+Form Input → Resume Parsing → LLM Analysis → ATS Scoring → Email Automation    
 
-- ❌ Time-consuming  
-- ❌ Manually intensive  
-- ❌ Inconsistent across reviewers  
-- ❌ Hard to scale  
-
-**HireMind** solves this by introducing an AI-orchestrated workflow that standardizes and automates early-stage recruitment with production-style workflow engineering.
 
 ---
 
-## ⚡ Core Capabilities
+## 📸 Preview
 
-✅ AI-driven resume analysis  
-✅ Dynamic screening question generation  
-✅ Automated ATS compatibility scoring  
-✅ Personalized candidate email responses  
-✅ Fully event-driven workflow orchestration  
-✅ Modular and extensible node architecture  
-✅ Zero manual touch after form submission  
+### n8n Workflow
+
+![Workflow](n8n.png)
 
 ---
-
-## 🏗️ System Architecture
-
-### 🔄 End-to-End Pipeline
-
-
-
-Candidate Form Submission
-↓
-Resume Extraction & Parsing
-↓
-LLM Semantic Analysis
-↓
-Dynamic Question Generation
-↓
-ATS Score Computation
-↓
-Automated Gmail Response
-
-
-![Architecture Diagram](screenshots/architecture.png)
-
----
-
-## 🧠 Workflow Deep Dive
-
-### 1️⃣ Candidate Intake
-
-- Triggered via form/webhook submission  
-- Captures candidate metadata and resume  
-- Normalizes incoming payload  
-
----
-
-### 2️⃣ Resume Intelligence Layer
-
-The workflow:
-
-- Extracts structured data from resume  
-- Identifies skills and experience signals  
-- Prepares context for LLM evaluation  
-
-**Goal:** Convert unstructured resumes into decision-ready data.
-
----
-
-### 3️⃣ LLM Evaluation Engine
-
-Using Gemini/OpenAI, the agent:
-
-- Interprets candidate profile  
-- Generates contextual screening questions  
-- Assesses candidate relevance  
-- Produces structured evaluation output  
-
-**Design principle:** deterministic automation + probabilistic intelligence.
-
----
-
-### 4️⃣ ATS Scoring Module
-
-Custom scoring logic evaluates:
-
-- Skill match  
-- Experience relevance  
-- Role alignment  
-- Overall candidate strength  
-
-Output is normalized into an ATS-style score for downstream decisions.
-
----
-
-### 5️⃣ Automated Communication Layer
-
-The system automatically:
-
-- Generates personalized feedback  
-- Sends Gmail response  
-- Maintains professional tone  
-- Closes the candidate loop  
-
-**Result:** fully autonomous HR front-door.
-
----
-
-## 📸 Workflow Preview
-
-### 🧩 n8n Canvas
-
-![n8n Workflow](n8n.png)
-
----
-
 
 ## 🛠 Tech Stack
 
-| Layer | Technology |
-|------|------------|
-| Workflow Orchestration | n8n |
-| LLM Engine | Gemini / OpenAI |
-| Automation Logic | JavaScript (Code nodes) |
-| Email Service | Gmail API |
-| Data Processing | Structured JSON pipelines |
+- **Workflow:** n8n  
+- **LLM:** Gemini / OpenAI  
+- **Logic:** JavaScript  
+- **Email:** Gmail API  
 
 ---
 
-## 🚀 How to Run Locally
+## ⚙️ Setup
 
-### 1️⃣ Install n8n
+### 1. Install n8n
 
 ```bash
 npm install -g n8n
 n8n start
+```
+---
+
+📜 License
+
+MIT License
+
+---
+
+👨‍💻 Author
+
+Anurup Dasari
+AI Automation & Workflow Enthusiast
 
 
+---
+
+# 🔥 Why this version is better
+
+✅ Cleaner scan for recruiters  
+✅ Less wall of text  
+✅ Strong keywords  
+✅ Professional spacing  
+✅ GitHub-friendly layout  
+✅ No beginner vibe  
+
+---
+
+## ⭐ Quick visual check
+
+Your repo should now feel:
+
+- clean  
+- technical  
+- focused  
+- skimmable in 10 seconds  
+
+---
+
+If you want the **final polish most students miss**, say:
+
+> “rate my repo brutally”
+
+…and I’ll tell you exactly how recruiters will judge it (and how to beat 90% of applicants) 😈
