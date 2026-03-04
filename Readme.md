@@ -69,7 +69,7 @@ n8n start
 
 ```
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 
@@ -77,6 +77,7 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Built With Passion By
 
-## Anurup Dasari
+ Anurup Dasari
 
 AI Automation • Workflow Engineering • Intelligent Systems
+
