@@ -24,7 +24,7 @@ This project focuses on practical, scalable workflow orchestration rather than j
 
 ## 📸 Workflow Preview
 
-![HirePilot Workflow](C:\HIRE PILOT AGENT\screenshots)
+![HirePilot Workflow](n8n.png)
 
 ---
 
@@ -81,6 +81,7 @@ This project is licensed under the MIT License.
  Anurup Dasari
 
 AI Automation • Workflow Engineering • Intelligent Systems
+
 
 
 
