@@ -1,4 +1,4 @@
-# 🚀 HirePilot — AI HR Screening Agent
+# 🤖 HirePilot — AI HR Screening Agent
 
 ![n8n](https://img.shields.io/badge/Workflow-n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![LLM](https://img.shields.io/badge/LLM-Gemini%20%7C%20OpenAI-4285F4?style=for-the-badge)
@@ -12,7 +12,7 @@ The goal is to reduce manual HR workload through intelligent workflow automation
 
 ---
 
-## 🧠 What HirePilot Does
+##  What HirePilot Does
 
 HirePilot simulates a real-world AI-assisted hiring pipeline.  
 Once candidate data is provided, the workflow extracts resume insights, evaluates candidate relevance using an LLM, and produces structured outputs for decision support.  
@@ -81,5 +81,6 @@ This project is licensed under the MIT License.
  Anurup Dasari
 
 AI Automation • Workflow Engineering • Intelligent Systems
+
 
 
