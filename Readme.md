@@ -52,7 +52,7 @@ This project focuses on practical, scalable workflow orchestration rather than j
 
 The complete n8n workflow is available in:
 
-ai-hr-screening-workflow.json
+HirePilot.json
 
 
 You can import this directly into your local n8n instance to reproduce the automation pipeline.
@@ -81,6 +81,7 @@ This project is licensed under the MIT License.
  Anurup Dasari
 
 AI Automation • Workflow Engineering • Intelligent Systems
+
 
 
 
