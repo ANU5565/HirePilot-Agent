@@ -8,7 +8,7 @@
 
 **HirePilot** is an AI-powered recruitment automation agent built using n8n and modern LLMs.  
 It streamlines early-stage hiring by automatically analyzing resumes, generating contextual screening questions, computing ATS-style scores, and sending personalized candidate emails.  
-The goal is to reduce manual HR workload through intelligent workflow automation.
+The goal is to reduce manual HR workload through intelligent workflow automation
 
 ---
 
@@ -81,6 +81,7 @@ This project is licensed under the MIT License.
  Anurup Dasari
 
 AI Automation • Workflow Engineering • Intelligent Systems
+
 
 
 
