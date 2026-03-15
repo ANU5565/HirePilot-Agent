@@ -17,7 +17,7 @@ The goal is to reduce manual HR workload through intelligent workflow automation
 HirePilot simulates a real-world AI-assisted hiring pipeline.  
 Once candidate data is provided, the workflow extracts resume insights, evaluates candidate relevance using an LLM, and produces structured outputs for decision support.  
 The system is designed with modular n8n nodes so it can be easily extended into a production-grade recruitment assistant.  
-It demonstrates how deterministic automation and probabilistic AI can work together in HR tech.  
+It demonstrates how deterministic automation and probabilistic AI can work together in HR tech
 This project focuses on practical, scalable workflow orchestration rather than just prompt-based AI demos.
 
 ---
